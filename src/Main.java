@@ -196,6 +196,10 @@ class Data {
         read.close();
         return information;
     }
+    public class Arraylist {
+        ArrayList<Data> members = new ArrayList<Data>();
+        Data information = new Data(iso_code, continent, location, LocalDate date, new_case, new_death, people_vaccinated, population);
+    }
 }
 
 
